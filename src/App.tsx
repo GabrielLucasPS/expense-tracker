@@ -15,8 +15,7 @@ function App() {
     const [currentMonth, setCurrentMonth] = useState(getCurrentMonth());
     const [income, setIncome] = useState(0);
     const [expense, setExpense] = useState(0);
-
-
+    
     useEffect(()=>{
         setFilteredList( filterListByMonth(list, currentMonth) );
     }, [list, currentMonth]);
@@ -62,7 +61,7 @@ function App() {
                     expense={expense}
                 />
                 {/** Área de inserção */}
-                <InputArea onAdd={handleAddItem} />
+                <InputArea onAdd={handleAddItem}/>
                 {/** Tabela de itens */}
                 <TableArea list={filteredList} />
             </C.Body>
