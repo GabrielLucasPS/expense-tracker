@@ -11,4 +11,4 @@ Para instalar use o comando "npm install"
 
 ## `Rodar o projeto`
 
-Para rodar o projeto use o comando "npm run start". Assim podera visualizar o programa pelo navegardor na rota (localhost:3000).
+Para rodar o projeto use o comando "npm run start". Com isso abra o programa pelo navegardor na rota (localhost:3000).
