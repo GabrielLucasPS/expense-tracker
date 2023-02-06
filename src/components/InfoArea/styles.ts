@@ -16,7 +16,7 @@ export const MonthArea = styled.div`
     align-items: center;
 `;
 
-export const MonthArrow = styled.div`
+export const MonthArrowLeft = styled.div`
     width: 40px;
     height: 36px;
     text-align: center;
@@ -25,6 +25,18 @@ export const MonthArrow = styled.div`
     background-color: darkblue;
     color: #fff;
     border-radius: 20%;
+    rotate: 90deg;
+`;
+export const MonthArrowRight = styled.div`
+    width: 40px;
+    height: 36px;
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: darkblue;
+    color: #fff;
+    border-radius: 20%;
+    rotate: 270deg;
 `;
 
 export const MonthTitle = styled.div`
@@ -36,3 +48,4 @@ export const ResumeArea = styled.div`
     flex: 2;
     display: flex;
 `;
+

@@ -28,9 +28,9 @@ export const InfoArea = ({ currentMonth, onMonthChange, income, expense }:Props)
     return (
         <C.Container>
             <C.MonthArea>
-                <C.MonthArrow onClick={handlePrevMonth}>⬅️</C.MonthArrow>
+                <C.MonthArrowLeft onClick={handlePrevMonth}> V </C.MonthArrowLeft>
                 <C.MonthTitle>{formatCurrentMonth(currentMonth)}</C.MonthTitle>
-                <C.MonthArrow onClick={handleNextMonth}>➡️</C.MonthArrow>
+                <C.MonthArrowRight onClick={handleNextMonth}> V </C.MonthArrowRight>
             </C.MonthArea>
             <C.ResumeArea>
                 <ResumeItem title="Receitas" value={income} />
